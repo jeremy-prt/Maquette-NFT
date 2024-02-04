@@ -1,0 +1,48 @@
+#sell {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+#sell h2 {
+  color: var(--primary-color);
+  font-size: 2rem;
+}
+
+#sell .grid-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
+}
+
+#sell .grid-item {
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 20px;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  transition: 0.3s;
+}
+
+#sell .grid-item h4 {
+  text-transform: capitalize;
+  color: var(--primary-color);
+  font-size: 1.2rem;
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+#sell .grid-item h4 i {
+  font-size: 28px;
+}
+
+/* Animation grid-items */
+
+#sell .grid-item:hover {
+  box-shadow: none;
+}

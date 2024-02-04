@@ -1,0 +1,142 @@
+#hot {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+#hot .content {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+#hot h2 {
+  color: var(--primary-color);
+  font-size: 2rem;
+}
+
+#hot ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+#hot ul li {
+  background-color: #dfdcdc;
+  padding: 10px 15px;
+  border-radius: 20px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+#hot ul li:hover {
+  background-color: var(--secondary-color);
+  color: white;
+}
+
+#hot .grid-container {
+  margin-top: 10px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 30px;
+}
+
+#hot .grid-item {
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 20px;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  transition: 0.3s;
+}
+
+#hot .grid-item .picture {
+  max-width: 300px;
+  border-radius: 20px;
+  overflow: hidden;
+}
+
+#hot .grid-item .picture img {
+  width: 100%;
+  height: auto;
+}
+
+#hot .grid-item .content {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+#hot .grid-item .content h4 {
+  text-transform: capitalize;
+  color: var(--primary-color);
+  font-size: 1.2rem;
+}
+
+#hot .grid-item .content p {
+  color: var(--accent-color);
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 13px;
+}
+
+#hot .grid-item .content p:nth-child(3) {
+  color: #9f9f9f;
+  text-align: right;
+  display: inline-block;
+}
+
+#hot hr {
+  color: #9f9f9f;
+  opacity: 0.2;
+}
+
+#hot .grid-item .content p i {
+  font-size: 18px;
+}
+
+#hot .grid-item .bid {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 13px;
+}
+
+#hot .grid-item .bid p {
+  color: var(--accent-color);
+  font-weight: 500;
+}
+
+#hot .grid-item .bid p:nth-child(1) {
+  background-color: #dedcdc;
+  padding: 10px 15px;
+  border-radius: 15px;
+  color: var(--primary-color);
+}
+
+#hot .more {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+#hot a {
+  text-align: center;
+  text-decoration: none;
+  background-color: #dedcdc;
+  width: fit-content;
+  padding: 10px 15px;
+  color: var(--primary-color);
+  border-radius: 10px;
+  transition: 0.3s;
+}
+
+#hot a:hover {
+  background-color: var(--secondary-color);
+  color: white;
+}
